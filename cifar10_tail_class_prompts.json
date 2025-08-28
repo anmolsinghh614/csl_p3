@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "num_classes": 2,
+    "total_prompts": 6,
+    "model_info": "FeatureToTextMapper"
+  },
+  "prompts": {
+    "8": {
+      "class_name": "ship",
+      "prompts": [
+        "natural A ship with detailed visual attributes and natural lighting in natural setting",
+        "natural A ship with detailed visual attributes and natural lighting outdoors",
+        "natural A ship with detailed visual attributes and natural lighting in natural setting"
+      ],
+      "count": 3
+    },
+    "9": {
+      "class_name": "truck",
+      "prompts": [
+        "professional A truck with detailed visual attributes and natural lighting in daylight",
+        "sharp A truck with detailed visual attributes and natural lighting showing detail",
+        "natural A truck with detailed visual attributes and natural lighting in daylight"
+      ],
+      "count": 3
+    }
+  }
+}
