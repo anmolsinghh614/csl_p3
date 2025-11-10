@@ -1,0 +1,18 @@
+{
+  "generation_timestamp": "2025-10-02T22:47:43.251152",
+  "source_prompts_file": "./option3_test_results/test_prompts.json",
+  "model_type": "stable_diffusion",
+  "model_id": "runwayml/stable-diffusion-v1-5",
+  "total_classes": 2,
+  "total_images": 0,
+  "classes": {
+    "8": {
+      "num_images": 0,
+      "image_paths": []
+    },
+    "9": {
+      "num_images": 0,
+      "image_paths": []
+    }
+  }
+}

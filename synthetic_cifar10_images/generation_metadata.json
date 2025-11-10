@@ -1,0 +1,49 @@
+{
+  "generation_settings": {
+    "model": "runwayml/stable-diffusion-v1-5",
+    "num_images_per_prompt": 4,
+    "num_inference_steps": 25,
+    "guidance_scale": 7.5,
+    "image_size": "32x32",
+    "device": "cpu"
+  },
+  "classes": {
+    "8": {
+      "class_name": "ship",
+      "images_generated": 12,
+      "image_paths": [
+        "synthetic_cifar10_images\\class_8_ship\\synthetic_8_0_0.jpg",
+        "synthetic_cifar10_images\\class_8_ship\\synthetic_8_0_1.jpg",
+        "synthetic_cifar10_images\\class_8_ship\\synthetic_8_0_2.jpg",
+        "synthetic_cifar10_images\\class_8_ship\\synthetic_8_0_3.jpg",
+        "synthetic_cifar10_images\\class_8_ship\\synthetic_8_1_0.jpg",
+        "synthetic_cifar10_images\\class_8_ship\\synthetic_8_1_1.jpg",
+        "synthetic_cifar10_images\\class_8_ship\\synthetic_8_1_2.jpg",
+        "synthetic_cifar10_images\\class_8_ship\\synthetic_8_1_3.jpg",
+        "synthetic_cifar10_images\\class_8_ship\\synthetic_8_2_0.jpg",
+        "synthetic_cifar10_images\\class_8_ship\\synthetic_8_2_1.jpg",
+        "synthetic_cifar10_images\\class_8_ship\\synthetic_8_2_2.jpg",
+        "synthetic_cifar10_images\\class_8_ship\\synthetic_8_2_3.jpg"
+      ]
+    },
+    "9": {
+      "class_name": "truck",
+      "images_generated": 12,
+      "image_paths": [
+        "synthetic_cifar10_images\\class_9_truck\\synthetic_9_0_0.jpg",
+        "synthetic_cifar10_images\\class_9_truck\\synthetic_9_0_1.jpg",
+        "synthetic_cifar10_images\\class_9_truck\\synthetic_9_0_2.jpg",
+        "synthetic_cifar10_images\\class_9_truck\\synthetic_9_0_3.jpg",
+        "synthetic_cifar10_images\\class_9_truck\\synthetic_9_1_0.jpg",
+        "synthetic_cifar10_images\\class_9_truck\\synthetic_9_1_1.jpg",
+        "synthetic_cifar10_images\\class_9_truck\\synthetic_9_1_2.jpg",
+        "synthetic_cifar10_images\\class_9_truck\\synthetic_9_1_3.jpg",
+        "synthetic_cifar10_images\\class_9_truck\\synthetic_9_2_0.jpg",
+        "synthetic_cifar10_images\\class_9_truck\\synthetic_9_2_1.jpg",
+        "synthetic_cifar10_images\\class_9_truck\\synthetic_9_2_2.jpg",
+        "synthetic_cifar10_images\\class_9_truck\\synthetic_9_2_3.jpg"
+      ]
+    }
+  },
+  "total_images": 24
+}

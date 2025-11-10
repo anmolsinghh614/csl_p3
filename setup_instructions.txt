@@ -1,0 +1,28 @@
+python main_cifar10.py --model_name resnet32 --use_memory_bank --num_epochs 50
+# Generate images first
+python option3_image_generator.py test
+Complete Sequence:
+# 1. Generate prompts (if not done)
+python full_run_option3.py quick
+
+# 2. Generate synthetic images (if not done)
+python option3_image_generator.py test
+
+# 3. Train baseline model WITH memory bank
+python main.py \
+  --dataset_name cifar10 \
+  --model_name resnet18 \
+  --num_epochs 50 \
+  --use_memory_bank
+
+# 4. Extract features from synthetic images (Phase 5)
+python phase5_feature_reembedding.py \
+  --model_checkpoint ./checkpoints/cifar10_resnet18_epoch_50.pth \
+  --memory_bank ./memory_checkpoints/cifar10_resnet18/memory_bank_epoch_50.json
+
+# 5. Train with synthetic features
+python main_with_synthetic.py \
+  --dataset_name cifar10 \
+  --model_name resnet18 \
+  --use_memory_bank \
+  --use_synthetic_features

@@ -112,7 +112,7 @@ class FeatureToTextMapper(nn.Module):
             
             text_embedding = self.feature_projector(feature)
             
-            # Use template-based generation (no external models needed)
+            # Use template-based generation 
             prompt = self._generate_prompt_from_embedding(text_embedding, class_name)
             
             return prompt

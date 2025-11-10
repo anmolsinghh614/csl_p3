@@ -1,0 +1,59 @@
+{
+  "dataset": {
+    "name": "CIFAR10",
+    "imbalance_ratio": 10,
+    "num_classes": 10,
+    "batch_size": 32,
+    "num_workers": 2
+  },
+  "model": {
+    "architecture": "ResNet32",
+    "feature_dim": 512,
+    "num_classes": 10
+  },
+  "memory_bank": {
+    "capacity_per_class": 64,
+    "alpha_base": 0.1,
+    "tail_threshold_percentile": 30.0,
+    "update_interval": 50
+  },
+  "training": {
+    "initial_epochs": 2,
+    "synthetic_epochs": 1,
+    "lr": 0.1,
+    "momentum": 0.9,
+    "weight_decay": 0.0005,
+    "scheduler_milestones": [
+      5,
+      8
+    ],
+    "scheduler_gamma": 0.1
+  },
+  "generation": {
+    "num_prompts_per_tail_class": 5,
+    "images_per_prompt": 2,
+    "generation_rounds": 1,
+    "tail_improvement_threshold": 0.01,
+    "option3_temperature": 0.8,
+    "use_blip": true,
+    "use_clip": true
+  },
+  "ddpm": {
+    "enabled": false,
+    "num_timesteps": 100,
+    "beta_schedule": "cosine",
+    "hidden_dim": 128,
+    "num_layers": 2,
+    "training_steps": 100,
+    "features_per_class": 10
+  },
+  "paths": {
+    "checkpoint_dir": "./test_checkpoints",
+    "memory_dir": "./test_memory",
+    "prompts_dir": "./test_prompts",
+    "images_dir": "./test_images",
+    "features_dir": "./test_features",
+    "logs_dir": "./test_logs",
+    "results_dir": "./test_results"
+  }
+}

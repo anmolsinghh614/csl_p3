@@ -1,0 +1,39 @@
+{
+  "summary": {
+    "total_tail_classes": 2,
+    "classes_with_captions": 2,
+    "avg_exemplars_per_class": 3.0
+  },
+  "class_details": {
+    "8": {
+      "num_exemplars": 3,
+      "num_captions": 3,
+      "avg_distance_to_prototype": 0.8812457472085953,
+      "captions": [
+        "a boat on the water with trees in the background",
+        "a large boat floating in the ocean",
+        "a small boat in the middle of a body of water"
+      ],
+      "exemplar_distances": [
+        0.865929514169693,
+        0.8884729817509651,
+        0.8893347457051277
+      ]
+    },
+    "9": {
+      "num_exemplars": 3,
+      "num_captions": 3,
+      "avg_distance_to_prototype": 0.9519509623448054,
+      "captions": [
+        "a fire truck parked in front of a building",
+        "a truck driving down a road next to a field",
+        "a yellow truck driving down the road with a blue sky in the background"
+      ],
+      "exemplar_distances": [
+        0.9428878128528595,
+        0.9546027556061745,
+        0.9583623185753822
+      ]
+    }
+  }
+}

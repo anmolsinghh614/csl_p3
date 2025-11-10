@@ -197,7 +197,7 @@ if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description='CIFAR-10-LT training with memory bank')
     parser.add_argument('--batch_size', type=int, default=256, help='Batch size')
-    parser.add_argument('--num_epochs', type=int, default=20, help='Number of epochs')  
+    parser.add_argument('--num_epochs', type=int, default=5, help='Number of epochs')  
     parser.add_argument('--learning_rate', type=float, default=0.01, help='Learning rate')
     parser.add_argument('--use_memory_bank', action='store_true', default=True, help='Enable memory bank')
     parser.add_argument('--memory_capacity', type=int, default=64, help='Memory per class')

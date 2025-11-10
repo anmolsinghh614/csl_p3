@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "method": "Visual Exemplar + BLIP Captioning (Option 3)",
+    "num_tail_classes": 2,
+    "total_prompts": 22,
+    "clip_model": [
+      768,
+      3,
+      32,
+      32
+    ]
+  },
+  "prompts": {
+    "8": {
+      "class_name": "ship",
+      "prompts": [
+        "A photo of a ship",
+        "ship",
+        "A detailed image of a ship that is boat the water with trees",
+        "A ship with boat the water with trees",
+        "A photograph showing a boat on the water with trees in the background",
+        "A detailed image of a ship that is large boat floating the ocean",
+        "A ship with large boat floating the ocean",
+        "A photograph showing a large boat floating in the ocean",
+        "A detailed image of a ship that is small boat the middle body",
+        "A ship with small boat the middle body",
+        "A photograph showing a small boat in the middle of a body of water"
+      ],
+      "prompt_count": 11,
+      "exemplar_info": {
+        "total_images": 200,
+        "avg_distance_to_prototype": 0.9290704346075654
+      }
+    },
+    "9": {
+      "class_name": "truck",
+      "prompts": [
+        "A photo of a truck",
+        "truck",
+        "A detailed image of a truck that is fire parked front building",
+        "A truck with fire parked front building",
+        "A photograph showing a fire truck parked in front of a building",
+        "A detailed image of a truck that is driving down road next field",
+        "A truck with driving down road next field",
+        "A photograph showing a truck driving down a road next to a field",
+        "A detailed image of a truck that is yellow driving down the road",
+        "A truck with yellow driving down the road",
+        "A photograph showing a yellow truck driving down the road with a blue sky in the background"
+      ],
+      "prompt_count": 11,
+      "exemplar_info": {
+        "total_images": 200,
+        "avg_distance_to_prototype": 0.9980195326253306
+      }
+    }
+  }
+}
